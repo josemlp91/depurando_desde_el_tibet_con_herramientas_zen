@@ -1,5 +1,4 @@
 # Depurando desde el templo con herramientas Zen en Python.
----
 
 En el ciclo de desarrollo que seguimos para construir la aplicación de nuestros sueños, nos encontramos situaciones en las que tenemos que recurrir a la ardua labor de la depuración. Cuando el comportamiento de un componente software comienza a desafiar la lógica seguida en su implementación o cuando se llegan a dar casos límites que en un principio eran imposibles.
 
