@@ -45,7 +45,7 @@ from remote_pdb import RemotePdb
 RemotePdb('0.0.0.0', 4444).set_trace()
 ```
 
-y para acceder a la consola **Pdb**, asegurándonos que tenemos visibilidad a la IP PYTHON_HOST_IP, ejecutar:
+y para acceder a la consola **Pdb**, asegurándonos que tenemos visibilidad a la IP **PYTHON_HOST_IP**, ejecutar:
 
 ```bash
 telnet PYTHON_HOST_IP 4444
