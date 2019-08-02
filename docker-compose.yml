@@ -1,0 +1,17 @@
+version: '3'
+services:
+  python:
+    image: python:3.7
+    ports:
+      - "4444:4444"
+    environment:
+      - DOCKER=1
+      - PYTHONBREAKPOINT=remote_pdb.set_trace
+      - REMOTE_PDB_HOST=0.0.0.0
+      - REMOTE_PDB_PORT=4444
+    command: bash -c "pip install remote-pdb && python /code/test_int2roman.py"
+    volumes:
+      - .:/code
+    stdin_open: true
+    tty: true
+
