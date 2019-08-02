@@ -21,7 +21,7 @@ En versiones de Python anteriores a 3.7 para activar la depuraci처n pdb necesit�
 import pdb; pdb.set_trace()
 ```
 
-Con versiones Python 3.7+, no necesitamos realizar ninguna importaci처n y tenemos las funci처n "buil-in" 
+Con versiones Python 3.7+, no necesitamos realizar ninguna importaci처n y tenemos las funci처n "built-in" 
 ``breakpoint()``
 
 ```python
